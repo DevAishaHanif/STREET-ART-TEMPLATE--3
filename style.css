@@ -1,0 +1,224 @@
+body{
+ font-family:"Raleway",Arial,sans-serif;
+ margin:0px;
+ padding:0px;
+}
+.top{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.container{
+	width:100%;
+}
+.right{
+	width:7%;
+	font-size:24px;
+	background-color:white;
+	color:#000;
+	margin-left:15px;
+	cursor:pointer;
+	display:block;
+	border:none;
+	padding:15px;    
+  text-decoration:none;
+}
+.left{
+	padding:15px;
+	font-size:25px;
+	float:right;
+	margin-right:15px;
+	background-color:white;
+	color:black;
+	cursor:pointer;
+	display:block;
+	border:none;
+	text-decoration:none;
+}
+.left:hover{
+	background-color:lightgrey;
+	color:black;
+}
+.right:hover{
+ background-color:lightgrey;
+ color:black;
+}
+.photo,
+.picture,
+.pic,
+.man,
+.heart{
+	width:100%;
+}
+.streetart,
+.streetart2,
+.streetart3,
+.streetart4,
+.streetart5{
+	width:50%;
+}
+.streetart,
+.streetart2,
+.streetart5{
+ float:left;
+}
+.streetart3,
+.streetart4{
+ float:right;
+}
+.center{
+ font-size:29px;
+ width:100%;
+ position:relative;
+ top:70px;
+ padding-bottom:50px;
+ text-align:center;
+ text-decoration:none;
+ border:none;
+ }   
+.boy{
+ margin:auto;
+ display:block;
+ width:23%;
+ padding-bottom:20px;
+ padding-top:70px;
+}
+.ABOUT{
+ background-color:#f1f1f1;
+}
+.para{
+	padding-top:40px;
+	margin:auto;
+	display:block;
+	width:60%;
+	line-height:1.5;
+	font-size:15px;
+	color:#000000;
+}
+.mid{
+.mid{
+ background-color:#f1f1f1;
+ width:100%;
+ padding-top: 30px;
+  }
+.me{
+ text-align:center;
+ color:#E91E63;
+ padding-bottom:20px;
+ font-size:18px;
+ padding-top:30px;
+}
+.name,
+.Email,
+.Message,
+.end{
+ text-align:center;
+}
+.end{
+ padding-bottom:5%;
+ opacity:0.6;
+}
+.end a{
+ color:black;
+ padding-top:30px;
+}
+.end :hover{
+ color:green;
+}
+.Send {
+ padding-bottom:20px; 
+ color:black;
+ padding:10px;
+ cursor:pointer;
+ margin-right:auto;
+ margin-left:auto;
+ display:block;
+ width:57.8%;
+ background-color:black;
+ color:white;
+ border:none;
+ opacity:0.7;
+ font-size:16px;
+ margin-top:10px;
+}
+.Send:hover{ 
+ background-color:darkgrey;
+ color:#000;
+}
+.name,
+.Email,
+.Message{
+ margin-left:auto;
+ margin-right:auto;
+ width:57.8%;
+ padding:8px;
+ font-size:15px;
+ display:block;
+}
+.form label{
+ margin:10px;
+ font-weight:600;
+ width:100%;
+}
+.name input,
+.Email input,
+.Message input{
+ margin-top:5px;
+ padding:8px;
+ width:-webkit-fill-available;
+ margin-right: auto;
+ margin-left: auto;
+}
+                           /*  CSS END  */
+                    /*  Mediaqueries Start  */
+          /* Mediaqueries for low Resolution Tablets, Mobiles */
+   
+   /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px:
+*/
+@media (min-width:100px) and (max-width:600px) {
+         .conatiner,.photo,.streetart,.streetart3,.streetart2,.streetart4,.streetart5{
+         	width:100%;
+         }
+         .boy{
+         	width:55%;
+         }
+         .center,.mid{
+          width:100%;
+          text-align:center;
+        }
+}
+          /* Mediaqueries for iPads,Tablets */
+/*  ##Device = Tablets, iPads 
+         ##Screen = B/w 768px to 1024px:
+*/
+@media (min-width:601px) and (max-width: 1024px) {
+     .container{
+     	width:100%;
+     }
+     .center,.mid{
+     	text-align:center;
+      width:100%;
+ }
+     .boy{
+     	width:31%;
+     }
+   }
+         /*  Mediaqueries for Laptops,Desktops  */ 
+  /* 
+         ##Device = Laptops, Desktops
+         ##Screen = B/w 1025px to 1280px:
+*/
+@media (min-width:1025px) and (max-width:1280px){
+     .container{
+        width:100%;
+      }
+      .center,.mid{
+      text-align:center;
+      width:100%;
+ }
+     .boy{
+      width:28%;
+     }
+   }
+         /*  Mediaqueries END  */
